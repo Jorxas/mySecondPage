@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    min-width: 2rem; 
+    max-width: 90rem; 
+    /* Horizontal zentrieren */ 
+    margin: 0 auto;  
+    background-color: #f8f3f0;
+}
+
+header h1{
+    text-align: center;
+    font-size: 48px;
+    color: #F1675E;
+    margin-bottom: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #666; 
+    font-weight: 400;
+    position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 5px 20px;
+    border-radius: 4px;
+    
+}
+
+.nav-links a:hover,a.active {
+    background-color: #F1675E;
+    color: white;
+}
+
+/* Assure que tout est bien centré */
+.seite_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Ajuste les lignes */
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 15px;
+    
+}
+
+/* Style des liens */
+.nav-links {
+    text-transform: uppercase;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+
+
+footer div{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+    grid-template-rows: auto auto; /* Deux lignes automatiques */
+    align-items: center; /* Aligner verticalement */
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+
+footer div h2 {
+    grid-column: 1; /* Colonne de gauche */
+    text-align: left;
+}
+  
+  footer div p:first-of-type {
+    grid-column: 2; /* Colonne de droite */
+    text-align: right;
+    
+    
+  }
+  
+  footer div p:last-of-type {
+    grid-column: 2; /* Prend toute la largeur */
+    text-align: right;
+  }

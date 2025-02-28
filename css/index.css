@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+
+
+header h1{
+    text-align: center;
+    font-size: 48px;
+    color: #F1675E;
+    margin-bottom: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #666; 
+    font-weight: 400;
+    position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 5px 20px;
+    border-radius: 4px;
+    
+}
+
+.nav-links a:hover,a.active {
+    background-color: #F1675E;
+    color: white;
+}
+
+/* Assure que tout est bien centré */
+.seite_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Ajuste les lignes */
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 15px;
+    
+}
+
+/* Style des liens */
+.nav-links {
+    text-transform: uppercase;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.first_section{
+    background-image: url(../img/indexbild/Background.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;  /* Centre horizontalement */
+    align-items: center;  /* Centre verticalement */
+    text-align: center; /* Centre le texte */
+    flex-direction: column;
+    margin: 1.75rem 0;
+    color: #f0f0f0;
+    
+}
+.kommentars{
+    padding: 30px 20px;
+    background-color: rgb(251, 244, 236);
+}
+
+
+
+.kommentar_Container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.kommentar {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.kommentar p{
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+}
+
+.kommentar span{
+    font-weight: bold;
+    color: #777;
+}
+
+
+  
+/* Styles de la section */
+.best-activities {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.best-activities h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+
+/* Grille des activités */
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Carte d'activité */
+.activity-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.activity-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.activity-card h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #222;
+}
+
+.activity-card p {
+    font-size: 1em;
+    color: #666;
+    padding: 0 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
