@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 
+
+
 body {
 
     font-family: 'Montserrat', sans-serif;
@@ -81,11 +83,13 @@ footer div h2 {
   footer div p:first-of-type {
     grid-column: 2; /* Colonne de droite */
     text-align: right;
-    
+    margin-right: 30px;
     
   }
   
   footer div p:last-of-type {
     grid-column: 2; /* Prend toute la largeur */
     text-align: right;
+    margin-right: 30px;
   }
+
