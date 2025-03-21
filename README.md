@@ -1,4 +1,4 @@
-# My Website Structure:  
+# My Website Structure:  (noch nicht fertig)
 The website will consist of four main pages, each with a unique focus:
 
 ## 1. **Home Page**  
